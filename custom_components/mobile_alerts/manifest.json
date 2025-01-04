@@ -1,13 +1,12 @@
 {
   "domain": "mobile_alerts",
   "name": "Mobile-Alerts",
-  "codeowners": ["@PlusPlus-ua"],
+  "codeowners": ["@jipem01"],
   "iot_class": "local_push",
   "config_flow": true,
-  "documentation": "https://www.home-assistant.io/integrations/mobile_alerts",
+  "documentation": "https://github.com/Iminet72/ha_mobilealerts/tree/main",
   "dependencies": ["network"],
   "requirements": ["mobilealerts==0.1.13"],
-  "supported_brands": { "tfa_weatherhub": "TFA WeatherHub" },
   "dhcp": [
     { "registered_devices": true },
     { "macaddress": "001D8C*" }
