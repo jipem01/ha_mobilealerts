@@ -169,7 +169,7 @@ class MobileAlertesIsRainingBinarySensor(MobileAlertesBinarySensor):
         """Update data from the sensor."""
         value: bool = False
 		
-		try:
+        try:
             # Validate that measurements have enough entries
             if len(self._sensor.measurements) <= 2:
                 _LOGGER.warning("Sensor measurements do not have enough entries.")
